@@ -13,7 +13,7 @@ export const PokemonContainer = () => {
         {width:1400,itemsToShow:4}
       ];
 
-    const {data : {pokemons = []} = {} } = useQuery(GET_POKEMONS,{variables:{first:150}});
+    const {data : {pokemons = []} = {} } = useQuery(GET_POKEMONS,{variables:{first:151}});
 
     return (
         <div className="containerDiv">
