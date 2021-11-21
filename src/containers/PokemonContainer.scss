@@ -1,0 +1,19 @@
+@import "../common/colors.scss";
+
+.rec.rec-dot {
+    visibility: hidden !important;
+}
+
+.rec.rec-dot_active {
+    visibility: hidden !important;
+}
+
+.carousel {
+    margin-top: 10px;
+}
+.containerDiv {
+    background-color: $font-secondary !important;
+}
+.progressDiv{
+    margin-top: 50px;
+}
